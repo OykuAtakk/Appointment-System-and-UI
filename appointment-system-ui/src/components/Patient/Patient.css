@@ -1,0 +1,57 @@
+.patient-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+}
+
+button {
+  margin-top: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.appointment-form {
+  margin-top: 20px;
+}
+
+.appointment-form input {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: calc(100% - 22px); /* Padding ve border'ı hesaba kat */
+}
+
+.appointment-form button {
+  background-color: #28a745; /* Yeşil buton */
+}
